@@ -1,0 +1,12 @@
+langchain-groq
+langchain
+langgraph
+langchain-community
+tavily-python
+requests
+forex-python
+python-dotenv
+markdown-it-py
+xhtml2pdf
+markdown
+streamlit
