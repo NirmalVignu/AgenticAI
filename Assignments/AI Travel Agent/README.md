@@ -68,7 +68,7 @@ Open your web browser and navigate to the local URL provided by Streamlit (usual
 
 Here is a sample travel plan generated for a 7-day trip to Manali, India. The application can generate a similar PDF for your custom query.
 
-*(Image of the first page of Trip\_Plan\_Manali.pdf)*
+*(![output](image.png))*
 
 The plan includes:
 

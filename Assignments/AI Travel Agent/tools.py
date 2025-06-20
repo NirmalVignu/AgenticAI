@@ -3,8 +3,11 @@ from langchain.tools import tool
 from langchain_community.tools.tavily_search import TavilySearchResults
 import requests
 from forex_python.converter import CurrencyRates, RatesNotAvailableError
+from dotenv import load_dotenv
+load_dotenv()
 
 
+os.environ["TAVILY_API_KEY"] = os.getenv("TAVILY_API_KEY")
 # Search tool for attractions, hotels, restaurants, etc.
 search_tool = TavilySearchResults(max_results=5, description="A search engine optimized for comprehensive, accurate, and trusted results.")
 
